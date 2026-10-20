@@ -1,0 +1,15 @@
+html {
+    font-size: 16px; 
+} /* 문서 내 기본 크기가 16px */
+
+article h1 {
+    font-size: 3rem;
+} /* 기본 크기의 3배 */
+
+article p {
+    font-size: 1rem;
+}
+
+article a {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,19 @@
+html {
+    font-size: 16px; 
+} /* 문서 내 기본 크기가 16px */
+
+article {
+    font-size: 40px;
+}
+
+article h1 {
+    font-size: 3em;
+} /* 부모 요소(article) 크기의 3배 */
+
+article p {
+    font-size: 1em;
+}
+
+article a {
+    font-size: 0.8em;
+}

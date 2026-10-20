@@ -1,0 +1,11 @@
+p strong {
+    border: 1px solid blue;
+} /* p 태그로 감싼 자식 태그를 꾸미는 css */
+
+ul > li {
+    border: 1px solid red;
+} /* 직계 자식 태그인 li만 스타일 적용 */
+
+h1, h2, h3 {
+    border: 1px solid red;
+} /* 같은 스타일을 여러 태그에 적용 가능 */

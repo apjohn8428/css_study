@@ -1,0 +1,16 @@
+ul.menu {
+    background-color: dimgray;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    list-style-type: none; /* list의 점 삭제 */
+}
+
+ul.menu li {
+    display: inline-block; /* 블록 -> 인라인으로 속성 변경 */
+    margin-right: 20px;
+}
+
+ul.menu li:last-child{
+    margin-right: 0px; /* 마지막 요소의 오른쪽 마진 제거 */
+}

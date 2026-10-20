@@ -1,0 +1,3 @@
+ul li:last-child {
+    border: 1px solid green
+} /* 마지막 요소만 꾸미는 선택자 */

@@ -1,4 +1,3 @@
-/*
 ul li:nth-of-type(1) {
     border: 1px solid red;
 }  
@@ -14,27 +13,3 @@ ul li:nth-of-type(3) {
 ul li:nth-of-type(4) {
     border: 1px solid green;
 } 
-
-ul li:nth-of-type(2n-1) {
-    border: 1px solid red;
-    margin-bottom: 10px;
-}
-
-ul li:nth-of-type(2n) {
-    border: 1px solid blue;
-    margin-bottom: 10px;
-}
-
-ul li:last-child {
-    border: 1px solid green
-} */
-
-ul li:nth-of-type(odd) { /* 홀수 선택자 */
-    border: 1px solid green;
-    margin-bottom: 10px;
-}
-
-ul li:nth-of-type(even) { /* 짝수 선택자 */
-    border: 1px solid red;
-    margin-bottom: 10px;
-}

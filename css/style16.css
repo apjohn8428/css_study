@@ -1,3 +1,7 @@
+body {
+    background-image: url(../img/pattern.png);
+}
+
 ul.menu {
     background-color: dimgray;
     padding: 15px;

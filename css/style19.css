@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} /* css 초기화 -> 웹 브라우저의 기본 여백 제거 */
+
+ul,ol {
+    list-style: none;
+} /* 목록 태그의 요소 앞 기호 제거 */
+
+a {
+    text-decoration: none;
+} /* 하이퍼링크의 밑줄을 제거 */
+
+body {
+    background-color: red;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}

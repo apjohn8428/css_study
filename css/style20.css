@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.wrap {
+    width: 800px;
+    margin: 100px auto;
+    border: 5px solid black;
+} /* 부모 태그 - section 2개를 감싸고 있으au height가 미정 -> 자식 태그의 height에 따라 늘어남 */
+
+div.wrap::after { 
+    content: ''; /* 가짜 요소 추가 */
+    display: block; /* height 속성을 추가 -> float 이후 줄어드는 것을 방지 */
+    clear: both; /* float 속성 제거 */
+} 
+
+div.wrap section.left {
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    float: left;
+}
+
+div.wrap section.right {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    float: right;
+}

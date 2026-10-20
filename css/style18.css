@@ -12,6 +12,7 @@ section article { /* 2개 article의 공통 속성 */
     background-position: center center;
     background-attachment: fixed;
 }
+
 section article:nth-of-type(1) {
     background-image: url(../img/car1.jpg);
 }
